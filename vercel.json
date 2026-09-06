@@ -1,7 +1,6 @@
 {
   "buildCommand": "pnpm exec vite build",
   "outputDirectory": "dist/public",
-  "installCommand": "rm -rf node_modules && pnpm install --force --store-dir=.pnpm-store-fresh",
   "framework": null,
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api" },
