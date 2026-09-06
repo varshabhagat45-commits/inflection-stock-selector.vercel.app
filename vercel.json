@@ -1,7 +1,7 @@
 {
-  "buildCommand": "vite build",
+  "buildCommand": "pnpm exec vite build",
   "outputDirectory": "dist/public",
-  "installCommand": "pnpm install",
+  "installCommand": "rm -rf node_modules && pnpm install --force",
   "framework": null,
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api" },
